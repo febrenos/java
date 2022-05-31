@@ -94,13 +94,13 @@ public class Test {
 #### loops
 ```java
 for(int i=0; i<v.length; i++){
-	//content
-	}
+	//condition
+}
 	
 while(3 > count){
-            count++;
-	    //condition
-        }
+	count++;
+	//condition
+}
 ```
 
 ### POO
