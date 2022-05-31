@@ -92,6 +92,16 @@ public class Test {
 }
 ```
 #### loops
+```java
+for(int i=0; i<v.length; i++){
+	//content
+	}
+	
+while(3 > count){
+            count++;
+	    //condition
+        }
+```
 
 ### POO
 - Class
