@@ -2,7 +2,7 @@ package review;
 
 import java.util.Scanner;
 
-public class ArrayAndMethods {
+public class VectorAndMethods {
 	
 	public int sizeV(){
 		System.out.println("SIZE OF VECTOR");
@@ -14,16 +14,16 @@ public class ArrayAndMethods {
 	
 	//arr de int e str
 	// um retorno afeta o valor de outro
-	//vetor: homogenio e imutavel
-	public int[] createV(  s){
+	//vector: homogenio e imutavel
+	public int[] createV(s){
 		System.out.println("CREATING VECTOR...");
 		Scanner input = new Scanner(System.in);
-		int[] vetor = new int[s];
-		for(int i=0; i<vetor.length; i++){//size / length
-			System.out.printf("vetor[%d]: \n", i);
-			vetor[i] = input.nextInt();
+		int[] vector = new int[s];
+		for(int i=0; i<vector.length; i++){//size / length
+			System.out.printf("vector[%d]: \n", i);
+			vector[i] = input.nextInt();
 		}
-		return vetor;
+		return vector;
 	}
 	
 	public void printV( int[] v){
@@ -53,7 +53,7 @@ public class ArrayAndMethods {
 	
 	//can stay in another class
 	public static void main(String[] args){
-		ArrayAndMethods obj = new ArrayAndMethods();
+		VectorAndMethods obj = new VectorAndMethods();
 		int s = obj.sizeV();
 		int[] v = obj.createV(s);
 		obj.printV(v);
