@@ -1,5 +1,4 @@
 //Struct(alternate values in arr/vector)
-```java
 public class User{
 	private String name;
 	private int age;
@@ -62,4 +61,3 @@ public class LstUsers{
 		}
 	}
 }
-```
