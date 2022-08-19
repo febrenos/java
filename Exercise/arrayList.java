@@ -1,9 +1,12 @@
 package test;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Array {
 	public static void main(String[] args) {
+		
+		//STRING
 		//arrayList sera sempre obj
 		ArrayList<String> cars = new ArrayList<String>();
 		
@@ -45,5 +48,37 @@ public class Array {
 			cont++;
 		}
 		
+		//INTERGER
+		ArrayList<Interger> num = new ArrayList<Interger>();
+		
+		num.add(1);
+		num.add(-1);
+		num.add(3);
+		num.add(2);
+		
+		//for-each loop
+		for(int i: num){
+			System.out.println(i);
+		}
+		
+		//for loop
+		for(int=0; i<num.size(); i++){
+			System.out.printf("%d: %d", i, num.get(i));
+		}
+		
+		
+		//COLLECTIONS
+		Collections.sort(cars);
+		Collections.sort(num);
+		
+		System.out.println(cars);
+		System.out.println(num);
+		
+		//Heterogenic without Generics(<Interger>,<String>) arrayList
+		//many types of values
+		ArrayList lstHet = new ArrayList();
+		lstHet.add(True);
+		lstHet.add(1);
+		lstHet.add("jeff");
 	}
 }
