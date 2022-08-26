@@ -49,6 +49,20 @@ if(){
 (True/False) ? do 1 : do 2;
 ```
 
+#### Exceptions
+<p align="center">
+  <img src="./img/exception.jpg" width="550" title="hover text">
+</p>
+```java
+try{
+//if right
+}catch{
+//if try wrong
+}finaly{
+//ever do
+}
+```
+
 
 #### Kinds of Orientacao
 - Orientacao Estruturada(serveless)
