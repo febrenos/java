@@ -50,9 +50,11 @@ if(){
 ```
 
 #### Exceptions
+
 <p align="center">
-  <img src="./img/exception.jpg" width="550" title="hover text">
+  <img src="./img/exception.png" width="550" title="hover text">
 </p>
+
 ```java
 try{
 //if right
