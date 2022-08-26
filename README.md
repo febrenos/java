@@ -39,6 +39,16 @@ java SE(Standard Edition)
 - class = Upper case
 - main = principal
 
+#### Conditions
+```java
+if(){
+}else if(){
+}else{
+}
+//if ternary
+(True/False) ? do 1 : do 2;
+```
+
 
 #### Kinds of Orientacao
 - Orientacao Estruturada(serveless)
