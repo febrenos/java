@@ -57,10 +57,10 @@ if(){
 
 ```java
 try{
-//if right
+//ever try
 }catch{
-//if try wrong
-}finaly{
+//if try is wrong
+}finally{
 //ever do
 }
 ```
