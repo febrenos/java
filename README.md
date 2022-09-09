@@ -178,4 +178,12 @@ public class Lamborghini extends Car {
 	public void turnOn();
 }
 ```
+#### padroes de projeto
+evite usar heranca e opite por abstracao
+##### interfaces
+-classe abstrata(assinatura dos metodos, evita repeticoes de metodos, contratos(mesmos metodos))
+
+
+
+
 
