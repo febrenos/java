@@ -184,8 +184,7 @@ evite usar heranca e opite por abstracao
 -classe abstrata(assinatura dos metodos, evita repeticoes de metodos, contratos(mesmos metodos))
 
 #### Design Patterns
-
-
+-mvc 3 camadas model view controller
 
 
 
