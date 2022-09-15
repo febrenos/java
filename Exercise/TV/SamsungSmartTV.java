@@ -1,6 +1,6 @@
 package test;
 
-public class SamsungSmartTV extends TV implements RemoteControl {
+public class SamsungSmartTV extends TV implements IRemoteControl {
 
 	//final ins constant(inalteravel)
 	public final String MODEL = "TV001";
