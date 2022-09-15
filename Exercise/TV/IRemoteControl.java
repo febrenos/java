@@ -1,6 +1,6 @@
 package test;
 
-public interface RemoteControl {
+public interface IRemoteControl {
 	
 	//define methods from interface
 	public void changeChannel(int channel);
