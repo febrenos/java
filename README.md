@@ -185,6 +185,11 @@ evite usar heranca e opite por abstracao
 
 #### Design Patterns
 -MVC model view controller(3 camadas)
+-View
+-Controller
+
+-DAO (Data Access Object)
+-SOLID
 
 
 
