@@ -187,8 +187,8 @@ evite usar heranca e opite por abstracao
 -MVC model view controller(3 camadas)
 -View
 -Controller
-
 -DAO (Data Access Object)
+
 -SOLID
 
 
