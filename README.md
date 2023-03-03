@@ -29,7 +29,8 @@ java SE(Standard Edition)
 - sysou
                                                                                                                                                                      
 - ctrl + space
-- ctrl + shift + F
+- ctrol + shift + o (import all)
+- ctrl + shift + f (format)
 - ctrl + D
 - ctrl + F11 = RunProject
 - ctrl + /
